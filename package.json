@@ -1,0 +1,23 @@
+{
+  "name": "GymPass style app",
+  "version": "1.0.0",
+  "description": "GymPass style app",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "2.1.0",
+    "@types/node": "20.6.0",
+    "eslint": "8.50.0",
+    "tsup": "7.2.0",
+    "tsx": "3.12.9",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "dotenv": "16.3.1",
+    "fastify": "4.23.0",
+    "zod": "3.22.2"
+  }
+}
