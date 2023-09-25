@@ -1,5 +1,5 @@
 {
-  "name": "GymPass style app",
+  "name": "GymPass-style-app",
   "version": "1.0.0",
   "description": "GymPass style app",
   "scripts": {
@@ -11,11 +11,13 @@
     "@rocketseat/eslint-config": "2.1.0",
     "@types/node": "20.6.0",
     "eslint": "8.50.0",
+    "prisma": "5.3.1",
     "tsup": "7.2.0",
     "tsx": "3.12.9",
     "typescript": "5.2.2"
   },
   "dependencies": {
+    "@prisma/client": "5.3.1",
     "dotenv": "16.3.1",
     "fastify": "4.23.0",
     "zod": "3.22.2"
